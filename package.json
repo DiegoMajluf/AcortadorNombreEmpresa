@@ -1,0 +1,22 @@
+{
+  "name": "acortador-nombre-empresa",
+  "version": "1.0.0",
+  "description": "Acorta nombres de empresa para descripciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMajluf/AcortadorNombreEmpresa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMajluf/AcortadorNombreEmpresa/issues"
+  },
+  "homepage": "https://github.com/DiegoMajluf/AcortadorNombreEmpresa#readme",
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}
