@@ -1,10 +1,10 @@
 {
   "name": "acortador-nombre-empresa",
   "version": "1.0.0",
-  "description": "Acorta nombres de empresa para descripciones",
+  "description": "Acorta nombres de empresa eliminando palabras comunes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publicar": "tsc -d && npm publish"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/DiegoMajluf/AcortadorNombreEmpresa/issues"
   },
   "homepage": "https://github.com/DiegoMajluf/AcortadorNombreEmpresa#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "typescript": "^2.6.2"
   }
 }
