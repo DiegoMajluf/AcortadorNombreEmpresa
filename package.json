@@ -1,6 +1,6 @@
 {
   "name": "acortador-nombre-empresa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Acorta nombres de empresa eliminando palabras comunes",
   "main": "index.js",
   "scripts": {
