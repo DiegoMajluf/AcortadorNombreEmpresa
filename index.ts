@@ -1,4 +1,4 @@
-export function acortar(nom: string, maxLen?: number, maxWords: number = 2): string {
+export function acortar(nom: string, maxLen: number = 15, maxWords: number = 3): string {
     let reg = /(soc.*|sac|saci|serv.*|imp.*|exp.*|ind.*|hijo.*|spa|represent.*|limita.*|ltda|sa|eirl|inv.*|com.*|ing.*|cia|de|la|del|las|los)/
     let arr = nom.replace(/\./g, '')
         .split(' ')
@@ -12,6 +12,6 @@ export function acortar(nom: string, maxLen?: number, maxWords: number = 2): str
     // 
 
     return arr
-        .slice(0, maxWords - 1)
+        .slice(0, maxWords)
         .join(' ').substr(0, maxLen)
 }
